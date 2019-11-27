@@ -1,0 +1,319 @@
+input.long[type='text'],
+input.long[type='password'] {
+width: 685px;}
+
+input.medium[type='search'] {
+width: 220px;}
+	
+
+header{
+	background-color:#ccf2ff;
+	border:1px solid black;
+	
+	}
+	
+	nav{
+	background-color:linen;
+	width:20%;
+	height:auto;
+	float:right;
+	margin-right:60px;
+	
+	
+	}
+	
+	section{
+	width:70%;  /*previous 70%*/
+	border:1.3px solid #c3c3a2;
+	background-color:#ffffcc;
+	clear:both;
+	float:left;
+	margin-left:60px;   /*previous 60px*/
+	}
+	
+	
+	footer{
+	width:100%;
+	background-color:red;
+	float:left;
+	margin-top:5px;
+	}
+	
+	/* ====================== Pagination Starts ====================== */
+
+div.pagination {
+    padding: 3px;
+    margin: 3px;
+	z-index: 1000;
+	font-size: 14px;
+	margin-bottom: 20px;	
+}
+
+div.pagination a {
+    padding: 5px 7px;
+    margin: 2px;
+    border: 1px solid #0D6B23;
+    text-decoration: none; /* no underline */
+	background-color: #1DA93E;
+    color: #FFF;
+	font-weight: bold;
+}
+
+div.pagination a:hover, div.pagination a:active {
+    border: 1px solid #0D6B23;
+    color: #FFF;
+	background-color: #63BC78;
+}
+
+div.pagination span.current {
+    padding: 5px 7px;
+    margin: 2px;
+	border: 1px solid #0D6B23;
+	font-weight: bold;
+	background-color: #63BC78;
+	color: #FFF;
+	font-weight: bold;
+}
+
+div.pagination span.disabled {
+	padding: 5px 7px;
+	margin: 2px;
+	border: 1px solid #929693;
+	color: #929693;
+}
+/* ====================== Pagination Ends ====================== */	
+
+div.logo{
+	border:1px solid black;
+	width:144px;
+	height:144px;
+	
+	}
+	div.banner{
+	border:1px solid black;
+	background-color:lightgray;
+	width:80%;
+	height:144px;
+	position:absolute;
+	right:10px;
+	top:8px;
+	}
+	
+	div.menu_and_search{
+	border:1px solid black;
+	width:100%;
+	height:50px;
+
+	}
+	
+	div.menu{
+	
+	width:60%;
+	height:50px;
+	float:left;
+	}
+	
+	div.search{
+	padding-top:15px;
+	padding-left:15px;
+	border:1px solid black;
+	width:30%;
+	height:35px;
+	
+	float:left;
+	margin-left:120px;
+	}
+	
+	/* menu section start */
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+	
+	}
+		/* menu section end */
+		
+	/*item start*/
+		
+		div.item{
+		background-color:white;
+		width=100%;
+		margin:5px 50px;
+		border:1px solid black;
+		color:red;
+		
+		}
+		
+		div.item-image{
+		width:160px;
+		height:120px;
+		float:left;
+		margin-right:15px;
+		}
+		
+		
+		div.item-details{
+		color:black;
+		}
+		
+		div.item-post{
+		color:black;
+		}
+		
+		div.short-details{
+
+		border:1px solid black;
+		}
+		
+		div.comment{
+		
+		}
+		
+		div.comment-main{
+			background-color:linen;
+			margin:5px 10px;
+			
+		}
+		div.commentblock{
+			
+			
+		}
+		div.comment-image{
+		width:80px;
+		height:100px;
+		border:1px solid black;
+		font-size:8px;
+		text-align:center;
+		margin:2px 5px;
+		}
+		
+		div.comment-content{
+			border:1px solid black;
+			position:relative;
+			left:100px;
+			width:700px;
+			top:-105px;
+		
+		}
+	
+
+		span.comment{
+		margin:2px 5px;
+		color:#ff6600;
+		}
+		
+		/*button start*/
+		
+		.button{
+  border-radius: 4px;
+  background-color:  #4CAF50;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 5px ;
+  
+  width: 130px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px 0px;
+  margin-left:500px;
+}
+
+
+
+		.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+	.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+		
+		/*button end*/
+		
+		
+		/*item end*/
+		
+		/*category start*/
+		
+		div.category{
+		width:250px;
+		margin-left:50px;
+		 line-height:30px;
+		}
+			/*category table start*/
+			
+			th{
+			border-radius:10px;
+			background-color:#c67139;
+			}
+			
+			td{
+			text-align:center;
+			border-bottom:1px solid red;
+			}
+			
+			/*tr:nth-child(even)
+			{
+			background-color:#ccffe2;
+			}*/
+			
+			table{
+			width:200px;
+			}
+			/*category table end*/
+		
+			/*recent_post start*/
+			
+			div.recent_post{
+			border:1px solid black;
+			width:95%;
+			margin:20px 5px;
+			}
+			
+			/*recent_post end*/
+		
+		/*category end*/
+			

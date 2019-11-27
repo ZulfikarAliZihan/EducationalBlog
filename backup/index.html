@@ -1,0 +1,340 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Online exam Blog</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	
+	<style type="text/css">
+	
+
+	
+	div.logo{
+	border:1px solid black;
+	width:144px;
+	height:144px;
+	
+	}
+	div.banner{
+	border:1px solid black;
+	background-color:lightgray;
+	width:80%;
+	height:144px;
+	position:absolute;
+	right:10px;
+	top:8px;
+	}
+	
+	div.menu_and_search{
+	border:1px solid black;
+	width:100%;
+	height:50px;
+
+	}
+	
+	div.menu{
+	
+	width:60%;
+	height:50px;
+	float:left;
+	}
+	
+	div.search{
+	padding-top:15px;
+	padding-left:15px;
+	border:1px solid black;
+	width:30%;
+	height:35px;
+	
+	float:left;
+	margin-left:120px;
+	}
+	
+	/* menu section start */
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+	
+	}
+		/* menu section end */
+		
+		/*item start*/
+		
+		div.item{
+		width=100%;
+		margin:5px 50px;
+		border:1px solid black;
+		color:red;
+		}
+		
+		div.item_image{
+		width:160px;
+		height:120px;
+		float:left;
+		margin-right:15px;
+		}
+		
+		div.item_details{
+		color:black;
+		}
+		
+		div.short_details{
+
+		border:1px solid black;
+		}
+		
+		div.comment{
+		
+		}
+		
+		span.comment{
+		margin:2px 5px;
+		color:#ff6600;
+		}
+		
+		/*button start*/
+		
+		.button {
+  border-radius: 4px;
+  background-color:  #4CAF50;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 5px ;
+  
+  width: 130px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px 0px;
+  margin-left:500px;
+}
+
+		.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+	.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+		
+		/*button end*/
+		
+		
+		/*item end*/
+		
+		/*category start*/
+		
+		div.category{
+		width:250px;
+		margin-left:50px;
+		 line-height:30px;
+		}
+			/*category table start*/
+			
+			th{
+			border-radius:10px;
+			background-color:#c67139;
+			}
+			
+			td{
+			text-align:center;
+			border-bottom:1px solid red;
+			}
+			
+			/*tr:nth-child(even)
+			{
+			background-color:#ccffe2;
+			}*/
+			
+			table{
+			width:200px;
+			}
+			/*category table end*/
+		
+			/*recent_post start*/
+			
+			div.recent_post{
+			border:1px solid black;
+			width:95%;
+			margin:20px 5px;
+			}
+			
+			/*recent_post end*/
+		
+		/*category end*/
+		
+		
+	</style>
+	
+</head>
+<body>
+	<header>
+	
+	<div class="logo">
+	Logo
+	</div>
+	
+	<div class="banner">banner</div>
+	<div class="menu_and_search">
+	<div class="menu">
+	
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="#news">Online exam</a></li>
+  <li><a href="#contact">Login</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+	
+	</div>
+	
+	<div class="search">
+	<form action="">
+	<input type="text" name=search placeholder="search everything"/>
+	<input type="submit" value="GO" />
+	</form>
+	</div>
+	</div>
+	</header>
+	
+	
+	<section>
+	<div class="item">
+	
+<div class="item_image">
+	
+	<img src="image/item1.jpg" width="160px" height="120px"  alt="Image" />
+	</div>
+	
+	<div class="item_details">
+	<h1>Title of any post</h1>
+	<div class="short_details">
+	 short details  short details  short details  short details  short details  short details<br>
+	 short details  short details  short details  short details  short details  short details<br>
+	 short details  short details  short details  short details  short details  short details <br>
+	</div>
+	
+	<div class="comment">
+	<span class="comment">Author name</span>
+	<span class="comment">comment-6</span>
+	<button class="button"><span><a href="">Continue</a></span></button>
+	</div>
+	
+	</div>
+	
+</div>
+
+<div class="item">
+	
+	<div class="item_image">
+	
+	<img src="image/item1.jpg" width="160px" height="120px"  alt="Image" />
+	</div>
+	
+	<div class="item_details">
+	<h1>Title of any post</h1>
+	<div class="short_details">
+	 short details  short details  short details  short details  short details  short details<br>
+	 short details  short details  short details  short details  short details  short details<br>
+	 short details  short details  short details  short details  short details  short details <br>
+	</div>
+	
+	<div class="comment">
+	<span class="comment">Author name</span>
+	<span class="comment">comment-6</span>
+	<button class="button"><span>Continue</span></button>
+	</div>
+	
+	</div>
+	
+</div>
+
+	</section>
+	
+	<nav>
+	<div class="category">
+	<table>
+		<tr>
+			<th>Category</th>
+			
+		</tr>
+		<tr>
+			<td><a href="">BCS</a><br></td>
+		</tr>
+		<tr>
+			<td><a href="">HSC</a><br></td>
+			
+		</tr>
+		<tr> 
+			<td><a href="">SSC</a><br></td>
+			
+		</tr>
+		<tr> 
+			<td><a href="">SSC</a><br></td>
+		</tr>
+		<tr>
+			<td><a href="">JSC</a><br></td>
+		</tr>
+	</table>
+	
+	</div>
+	
+	<div class="recent_post">
+	<h1>Recent post</h1>
+	<p>title1</p>
+	<p>title2</p>
+	<p>title3</p>
+	<p>title4</p>
+	</div>
+	
+	</nav>
+	
+	<footer>
+	<p style="text-align:center;">All right removed@Online Exam Blog</p>
+	</footer>
+	
+</body>
+</html>

@@ -1,0 +1,23 @@
+1.
+<?php
+	//Yes yes yes i got it (identify a login user)
+	include('config.php');
+			$statement = $db->prepare("SELECT name FROM tbl_users where id=?");
+			$statement->execute(array($_REQUEST['id']));
+			$result = $statement->fetchAll(PDO::FETCH_ASSOC);
+			foreach($result as $row)
+			{
+				$user_name=$row['name'];
+				echo $user_name;
+			}
+		//$author_name=mysql_query("select name from tbl");
+	?>
+	
+	
+	
+2.
+//test of data passing in index page
+header("location: index.php?email=$email");
+//test of data(email) passing from login page
+		$mail=$_REQUEST['email'];
+		echo $mail;			
